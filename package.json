@@ -2,7 +2,7 @@
   "name": "CoE-API",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.py",
   "scripts": {
     "user": "mocha 'tests/scenarios/user/*.js' --reporter mochawesome --timeout 20000 user",
     "BOOKS": "mocha 'tests/scenarios/books/*.js' --reporter mochawesome --timeout 20000 books",
