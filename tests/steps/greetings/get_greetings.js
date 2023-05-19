@@ -1,4 +1,4 @@
-import { request } from '../../utils/requests.js'
+import { request } from '../../utils/requests.js';
 
 export async function getGreetings() {
     it('Retrieve greeting', async function () {
@@ -6,10 +6,10 @@ export async function getGreetings() {
             {
                 statusCode : 200,
                 expectedFields: [
-                    'greetings',
+                    'greetings'
                 ],
                 expectedValues: [
-                                    {path: 'greetings', value: 'Hello from Python App!'},
+                                    {path: 'greetings', value: 'Hello from Python App!'}
                                 ]
             }
         )
