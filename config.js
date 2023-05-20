@@ -23,10 +23,10 @@ export const config = {
         host: 'http://localhost:3030'
     },
     greetings_dev: {
-        host: 'http://localhost:7001/result'
+        host: 'http://127.0.0.1:7001/result'
     },
     greetings_staging: {
-        host: 'http://127.0.0.1:7002'
+        host: 'http://127.0.0.1:7002/result'
     },
     greetings_preprod: {
         host: 'http://127.0.0.1:7003'
