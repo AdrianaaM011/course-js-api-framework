@@ -6,10 +6,10 @@ export async function getGreetings() {
             {
                 statusCode : 200,
                 expectedFields: [
-                    'greetings'
+                    'greeting'
                 ],
                 expectedValues: [
-                                    {path: 'greetings', value: 'Hello from Python App!'}
+                                    {path: 'greeting', value: 'Hello from Python App!'}
                                 ]
             }
         )
